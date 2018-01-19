@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Kbo4IiKPJEvUxyZF04LFDoq5zDPnWZfc4pUHxWwPjVBhNGpSHV4AlZmHi4N/2skJ40QxjnTb2IYXKXLw1ADdy8u7Jl9uigNUtFGcAQwWdjfFiH0ashjWeGr8fE86iR9vi89s0kFGywb9vqKLWP866G+u3mwOiAmOpp2CU3MkwAoTD4frrD4Am9qgAFbin1IsrijrNUasoaZmuQ1TRZYewcynXMza8e38tplbp21lgR89NlKoH7FP9dlCOh/s4esA2SpSZpkx3KqtNr7QpSvph/sr5KQCds1kG60Tngxinv/gDlMMg2vTNJMBkxv9ZH7yoL3wtsR/lg0n8nAWbmNXMmITvJuC528rPIDfloGqOGXC9uwRwLWDnwuD6Bq6byGMDI02mvgpiUBV1I4lIOzsbUB2067TC2Aj0MrDppFZjVVJeoe+sjFZ1MXL9FccD1xgkMYMRZbWTH0/h7Kwo+R2n3++5XyiGXwy3RoAtu7h8FF26f8Z+sR7paxPg6aNU/6JNa0mBRmksHFfJe5hXevvqoBRVq2KOICUbxWLeWza2dBCjJCZpqt9HIAKhK6bb6rElgjSh0ECCSZjdzXcYlsbIlKlfII7JHSX3iCcg0Xpd/QDTy8CBo4Ayed28PAAacuNoF3Zwbix3Ksituuh/zI7jODS3GPKRQK6os7g5svWVJY=
+  app: polar-bastion-97326
+  on:
+    repo: lemazza/node-shopping-list-integration-tests
+    branch: tests-for-recipes
